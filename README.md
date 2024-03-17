@@ -1,16 +1,33 @@
-# shugar
+# Blood Sugar Converter App
+![image](https://github.com/firaun2020/shugar-converter/assets/59558890/90d712ab-9bd0-4882-9dff-384e440be466)
 
-A new Flutter project.
 
-## Getting Started
+## Overview
+The Blood Sugar Converter App is a mobile application designed to help users convert blood sugar measurements between different units of measurement (mg/dL and mmol/L).
 
-This project is a starting point for a Flutter application.
+## Installation
+To run the app locally, follow these steps:
+1. Install Flutter (https://flutter.dev/docs/get-started/install)
+2. Clone this repository: `git clone https://github.com/your_username/your_repository.git`
+3. Navigate to the project directory: `cd blood_sugar_converter`
+4. Run the app: `flutter run`
 
-A few resources to get you started if this is your first Flutter project:
+## Usage
+1. Enter a blood sugar value in either mg/dL or mmol/L text field.
+2. Press the "Convert" button to convert the value to the other unit of measurement.
+3. Use the "RESET" button to clear the text fields and reset to default values.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Dependencies
+- flutter: ^2.5.3
+- flutter_launcher_icons: ^0.9.2
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Folder Structure
+blood_sugar_converter/
+|-- android/
+|-- ios/
+|-- lib/
+|-- main.dart
+|-- assets/
+|-- sugar_prayer.jpg
+|-- pubspec.yaml
+|-- README.md
